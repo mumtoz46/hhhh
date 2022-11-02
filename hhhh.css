@@ -295,3 +295,64 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+.bek_fotter{
+    background-color: rgba(20, 20, 20, 1);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 80%;
+    justify-content: center;
+    padding: 93px 0px;
+}
+.bek_fotter_min{
+  
+}
+.bek_box_noi{
+    color: rgba(102, 102, 102, 1);
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+
+}
+.bek_lini{
+    background-color:rgba(102, 102, 102, 1);
+    height: 2px;
+    border: none;
+    margin: 60px 0px;
+}
+.bek_Categories{
+    display: flex;
+    gap: 70px;
+}
+.bek_dekor_color{
+    text-decoration: none;
+    color: white;
+}
+.bek_Categories ul li{
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+.tochk{
+color:rgba(20, 20, 20, 1);
+}
+.bek_Information{
+    margin-top: 70px;
+    display: flex;   
+}
+.pdd_W{
+    margin-right: 101px;
+}
+.bek_Information ul li{
+   list-style-type: none;
+   padding-bottom: 20px;
+}
+.bek_color_gll{
+    color: rgba(102, 102, 102, 1);
+}
+.bek_submit{
+   padding:12px 16px ; 
+}
+.bek_submit_col{
+    background-color: black;
+    color: white;
+}
