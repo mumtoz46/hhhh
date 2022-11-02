@@ -2,3 +2,257 @@
     margin: 0;
     padding: 0;
 }
+.navbar
+{
+    
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+}
+.left h4
+{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.right
+{
+    margin-left: 900px;
+    margin-top: 5px;
+}
+.right li
+{
+    list-style: none;
+}
+.right ul
+{
+    
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.top
+{
+    width: 100%;
+    display: flex;
+    
+}
+.leviy img
+{
+    width: 700px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.praviy
+{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.praviy span
+{
+    color: #999999;
+    font-family: 'Libre Franklin';
+    letter-spacing: 1px;
+}
+.praviy h1
+{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-transform: uppercase;
+padding-top: 15px;
+
+}
+.praviy p
+{
+    color: #666666;
+    font-family: 'Source Serif Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+padding-top: 20px;
+}
+.praviy h6
+{
+    font-family: 'Libre Franklin';
+font-style: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding-top: 20px;
+}
+
+.mshconteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+}
+.mshcontent{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+
+}
+.mshcontent h1{
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.mshcontent p{
+    font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.mshcontent a{
+    font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+text-decoration: none;
+
+}
+.mshcontent img{
+    width: 100%;
+         box-shadow: 3px 3px 3px black;
+}
+
+body {
+    animation: colorch 3s infinite alternate linear;
+}
+@keyframes colorch {
+    0% {
+        background-color: rgb(0, 255, 8);
+    }
+    25% {
+        background-color: aquamarine;
+    }
+    50% {
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: purple;
+    }
+}
+::-webkit-scrollbar {
+    width: 15px;
+    
+}
+::-webkit-scrollbar-button {
+    background-color: green;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: blue;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: red;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(185, 9, 9);
+}
+
+/* mazhabsho */
+
+.m_block_info{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    gap: 10px;
+    margin-bottom: 5rem;
+}
+.m_block_info_page{
+    background: #f1f1ff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px;
+}
+.m_block_info_page img{
+    width: 100%;
+    opacity: 0.7;
+}
+.m_block_info_page img:hover{
+    opacity: 1;
+    transition: 0.3 ease-in-out;
+}
+.m_block_info_page p{
+    padding-top: 10px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 5px;
+}
+.m_block_info_page .text{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.m_block_info_page  a{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000; 
+    text-decoration: none;
+    display:block;
+    padding-bottom: 10px;
+
+}
+.m_block_info_page  a:hover{
+    color:aqua;
+    transition: 0.4 ease-in;
+}
+.btn{
+     display: grid;
+     justify-content: center;
+     margin-bottom: 5rem;
+}
+.btn button a{
+    text-decoration: none;
+}
+.btn button {
+    font-size: 18px;
+    padding: 7px 15px;
+    text-align: center;
+    justify-content: center;
+    border-radius:3px;
+    border:none;
+}
+.btn button  a{
+    color: #000;
+}
